@@ -28,61 +28,59 @@ export default function PrivacyPolicy() {
           <section>
             <h2 className="font-domine text-2xl font-bold mb-4 text-accent">1. Introduction</h2>
             <p className="text-muted-foreground leading-relaxed">
-              We are committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our application.
+              We are committed to protecting your privacy. Grateful is a fully local, offline-first app. This Privacy Policy explains that we collect absolutely no personal data — everything you see in the app (including your personalized daily verses) lives only on your phone.
             </p>
           </section>
 
           <section>
             <h2 className="font-domine text-2xl font-bold mb-4 text-accent">2. Information We Collect</h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              We may collect information about you in a variety of ways. The information we may collect on the Site includes:
+              Grateful collects no information about you. The app is designed to keep everything private and local on your device. Specifically:
             </p>
             <ul className="list-disc list-inside text-muted-foreground space-y-2">
-              <li>Personal Data: Personally identifiable information, such as your name, shipping address, email address, and telephone number, that you voluntarily give to us when you register with the Site or when you choose to participate in various activities related to the Site.</li>
-              <li>Device Data: Device identifiers such as your device ID, device type, and device operating system.</li>
-              <li>Usage Data: Information about your interactions with the Site, including pages visited, features used, and actions taken.</li>
+              <li>Personal Data: We do not collect your name, email address, or any other personally identifiable information.</li>
+              <li>Device Data: We do not collect or transmit device identifiers, device type, or operating system details.</li>
+              <li>Usage Data: We do not track your interactions, verses viewed, or any activity within the app.</li>
             </ul>
           </section>
 
           <section>
             <h2 className="font-domine text-2xl font-bold mb-4 text-accent">3. Use of Your Information</h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Having accurate information about you permits us to provide you with a smooth, efficient, and customized experience. Specifically, we may use information collected about you via the Site to:
+              Because we collect no data, there is nothing for us to use or analyze. All personalization of your daily Bible verses happens directly on your device using only the information you choose to keep locally.
             </p>
             <ul className="list-disc list-inside text-muted-foreground space-y-2">
-              <li>Create and manage your account</li>
-              <li>Process your transactions and send you related information</li>
-              <li>Email you regarding updates, news, and general information about the services</li>
-              <li>Improve our services and develop new features</li>
-              <li>Monitor and analyze trends, usage, and activities for security purposes</li>
+              <li>Generate and display your personalized daily verse on your phone</li>
+              <li>Store your saved verses and reflections privately on your device</li>
+              <li>Provide a beautiful, intuitive experience without ever sending data anywhere</li>
             </ul>
           </section>
 
           <section>
             <h2 className="font-domine text-2xl font-bold mb-4 text-accent">4. Disclosure of Your Information</h2>
             <p className="text-muted-foreground leading-relaxed">
-              We may share information we have collected about you in certain situations. Your information may be disclosed as follows: by law or in the good-faith belief that such action is necessary to comply with the law and the reasonable requests of lawmen; to protect the security or integrity of our Site; and to exercise or protect the rights, property, or personal safety of AppName, our users, or the public.
+              We do not disclose, share, or transmit any information because nothing is collected or leaves your device. Your data never reaches our servers or any third parties.
             </p>
           </section>
 
           <section>
             <h2 className="font-domine text-2xl font-bold mb-4 text-accent">5. Security of Your Information</h2>
             <p className="text-muted-foreground leading-relaxed">
-              We use administrative, technical, and physical security measures to help protect your personal information. While we have taken reasonable steps to secure the personal information you provide to us, please be aware that despite our efforts, no security measures are perfect or impenetrable.
+              Since all your data stays on your device, you have complete control and the highest level of privacy. The app is built with security best practices to protect the information that lives locally on your phone.
             </p>
           </section>
 
           <section>
             <h2 className="font-domine text-2xl font-bold mb-4 text-accent">6. Contact Us</h2>
             <p className="text-muted-foreground leading-relaxed">
-              If you have questions or comments about this Privacy Policy, please contact us at: privacy@appname.com
+              If you have questions or comments about this Privacy Policy, please contact us at: privacy@grateful.app
             </p>
           </section>
 
           <section>
             <h2 className="font-domine text-2xl font-bold mb-4 text-accent">7. Changes to This Privacy Policy</h2>
             <p className="text-muted-foreground leading-relaxed">
-              We reserve the right to modify this privacy policy at any time. Changes and clarifications will take effect immediately upon their posting to the website. If we make material changes to this policy, we will notify you here that it has been updated, so that you are aware of what information we collect, how we use it, and under what circumstances, if any, we use and/or disclose it.
+              We reserve the right to modify this privacy policy at any time. Changes and clarifications will take effect immediately upon their posting to the website. If we make material changes to this policy, we will notify you here that it has been updated.
             </p>
           </section>
         </div>
@@ -94,7 +92,7 @@ export default function PrivacyPolicy() {
 
       {/* Footer */}
       <footer className="border-t border-border px-8 py-8 text-center text-sm text-muted-foreground mt-16">
-        <p>&copy; 2024 AppName. All rights reserved.</p>
+        <p>&copy; 2026 Grateful. All rights reserved.</p>
       </footer>
     </div>
   );
